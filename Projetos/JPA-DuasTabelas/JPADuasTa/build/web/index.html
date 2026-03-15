@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <fieldset>
+                <form action="Controlador" method="post">
+                    <label>Humano:</label>
+                    Código:<input type="text" name="txtCodigo" /><br/>
+                    Nome:<input type="text" name="txtNome" /><br/>
+                    <input type="submit" name="b1" value="Gravar" />&nbsp;&nbsp;
+                    <input type="submit" name="b1" value="Listar" />&nbsp;&nbsp;
+                    <input type="submit" name="b1" value="Remover" />&nbsp;&nbsp;
+                    <input type="submit" name="b1" value="Alterar" />&nbsp;&nbsp;
+                </form>
+            </fieldset>
+            <fieldset>
+                <label>Pet</label>
+                <form action="Controlador" method="post">
+                    <label>
+                        Código:<input type="text" name="txtCodigo" /></br>
+                        Código do Humano:<input type="text" name="txtCodigoHumano" /></br>
+                        Nome:<input type="text" name="txtNome" /><br/>
+                        Peso:<input type="text" name="txtPeso" /></br>
+                        <input type="submit" name="b1" value="GravarPet" />&nbsp;&nbsp;
+                        <input type="submit" name="b1" value="ListarPet" />&nbsp;&nbsp;
+                        <input type="submit" name="b1" value="RemoverPet" />&nbsp;&nbsp;
+                        <input type="submit" name="b1" value="AlterarPet" />&nbsp;&nbsp;
+                    </label>
+                </form>
+            </fieldset>
+    </body>
+</html>
